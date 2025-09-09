@@ -43,7 +43,7 @@ def menu_atack():
 
 def send_sms():
 	check_os()
-	phone = input('\n        Введите Российский номер для атаки с [\033[32m+7\033[33m]! \n\n        [\033[32m>>\033[33m] ')
+	phone = input('\n        Введите Российский номер для атаки с [\033[32m+213\033[33m]! \n\n        [\033[32m>>\033[33m] ')
 	
 	phone_check = phone.replace("+","")
 	num_kol = len(phone_check)
